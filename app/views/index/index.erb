@@ -1,0 +1,7 @@
+<%= form_tag("/search", method: "post") do %>
+  <%= label_tag(:sf, "Search for acronymn:") %>
+  <%= text_field_tag(:sf) %>
+  <%= label_tag(:limit, "Limit results:") %>
+  <%= text_field_tag(:limit) %>
+  <%= submit_tag("Search") %>
+<% end %>
