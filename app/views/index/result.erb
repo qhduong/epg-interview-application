@@ -1,7 +1,7 @@
-<% if @result.empty? %>
-	"Sorry there are no results found."
+<% if result.empty? %>
+	Sorry there are no results found for: <%= params[:sf] %>.
 <% else %>
-	<% @result.each do |long_form| %>
+	<% result.each do |long_form| %>
 	  <li><%= long_form %></li>
 	<% end %>
 <% end %>
