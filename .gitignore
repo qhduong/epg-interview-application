@@ -1,0 +1,9 @@
+
+db/test.sqlite3
+
+*.scssc
+/tmp/*
+
+tmp/pids/server.pid
+
+*.pid
